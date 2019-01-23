@@ -1,0 +1,112 @@
+.login-input {
+  overflow: hidden;
+}
+
+.icon-user {
+  margin: 20px 0 0 0;
+}
+
+.icon-lock {
+  margin: 8px 0 0 0;
+}
+
+#login-submit {
+  margin: 45px 0 0 0;
+}
+
+div.title {
+  font-family: product-sans-bold;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 10px 30px 10px;
+  position: relative;
+}
+
+#ta-modal {
+  background: linear-gradient(213deg, #3ba5b4 0, #38ba8a 100%);
+}
+
+#admin-modal {
+  background: linear-gradient(213deg, #3ba5b4 0, #38ba8a 100%);
+}
+
+div.modal-box {
+  color: white;
+  min-height: 320px;
+  border-radius: 5px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+}
+
+div#login {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(167, 170, 169);
+  color: white;
+}
+
+div.login-field {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+div.login-field input {
+  color: white;
+  font-family: product-sans;
+  font-size: 15px;
+  width: 100%;
+  line-height: 30px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding-left: 5px;
+  background-color: transparent;
+  border: 0px solid;
+}
+
+::placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+div.icon {
+  background-color: transparent;
+  text-align: center;
+  float: left;
+  width: 40px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.login-input-wrapper {
+  box-shadow: 0 1px 0 0px white;
+  border-radius: 0px;
+  line-height: 40px;
+}
+
+#login-submit,
+#login-admin-submit {
+  background-color: transparent;
+  box-shadow: 0 0 0 1px white;
+  font-family: product-sans-bold;
+  width: 100%;
+  line-height: 40px;
+  border-radius: 3px;
+  border: none;
+}
+
+#login-submit:hover,
+#login-admin-submit:hover {
+  font-size: 15px;
+}
+
+#login-submit:focus,
+#login-admin-submit:focus {
+  outline: 0;
+}
